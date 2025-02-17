@@ -1,2 +1,3 @@
-  command = "echo \"window.ENV = { API_KEY: '${TMDB_API_KEY}' };\" > public/env.js"
+[build]
+  command = "mkdir -p public && echo \"window.ENV = { API_KEY: '${TMDB_API_KEY}' };\" > public/env.js"
   publish = "public"
