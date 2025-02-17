@@ -1,2 +1,2 @@
-  command = "echo \"window.ENV = { API_KEY: '${API_KEY}' };\" > public/env.js"
+  command = "echo \"window.ENV = { API_KEY: '${TMDB_API_KEY}' };\" > public/env.js"
   publish = "public"
